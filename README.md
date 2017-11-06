@@ -3,10 +3,10 @@ A dialog-based on-board diagnositcs parsing tools.
 
 ***Chuan Yang*** (<yangc@sj-hospital.org>)
 
-[![Windows Build status](https://img.shields.io/badge/Windows-passing-brightgreen.svg)](https://github.com/YangChuan80/KatyOBD)
+[![Linux Build status](https://img.shields.io/badge/Linux-passing-brightgreen.svg)](https://github.com/YangChuan80/KatyOBD)
 [![MIT license](https://img.shields.io/badge/license-MIT%20License-blue.svg)](LICENSE)
-[![Dowloads](https://img.shields.io/badge/downloads-6M-green.svg)](https://github.com/YangChuan80/WillowbendDICOM/raw/master/Installer/WillowbendDICOM_Installer.exe?raw=true)
-[![Medicine Application](https://img.shields.io/badge/application-medicine-red.svg)](README.md)
+[![Dowloads](https://img.shields.io/badge/downloads-7K-green.svg)](https://github.com/YangChuan80/WillowbendDICOM/raw/master/Installer/WillowbendDICOM_Installer.exe?raw=true)
+[![Vehicle Application](https://img.shields.io/badge/application-vehicle-orange.svg)](README.md)
 [![Home](https://img.shields.io/badge/GitHub-home-ff69b4.svg)](https://github.com/YangChuan80)
 
 ## Introduction
