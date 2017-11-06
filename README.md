@@ -1,9 +1,9 @@
-# Charleston Park
-A dialog-based biobank data/database management tools.
+# Katy OBD
+A dialog-based on-board diagnositcs parsing tools.
 
 ***Chuan Yang*** (<yangc@sj-hospital.org>)
 
-[![Windows Build status](https://img.shields.io/badge/Windows-passing-brightgreen.svg)](https://github.com/YangChuan80/WillowbendDICOM)
+[![Windows Build status](https://img.shields.io/badge/Windows-passing-brightgreen.svg)](https://github.com/YangChuan80/KatyOBD)
 [![MIT license](https://img.shields.io/badge/license-MIT%20License-blue.svg)](LICENSE)
 [![Dowloads](https://img.shields.io/badge/downloads-6M-green.svg)](https://github.com/YangChuan80/WillowbendDICOM/raw/master/Installer/WillowbendDICOM_Installer.exe?raw=true)
 [![Medicine Application](https://img.shields.io/badge/application-medicine-red.svg)](README.md)
@@ -12,11 +12,9 @@ A dialog-based biobank data/database management tools.
 ## Introduction
 **Biobanks** are increasingly playing an important role in biotechnology, pharmaceutical and medical research. The ability to manage an ever-increasing number of biosamples (blood, tissue, DNA etc.) and to comply with the regulatory requirements, such as HTA, GCLP, MHRA, FDA 21  CFR Part 11 and other similar requirements, is a high priority for all organisations working in this area.  
 
-**Biobank Management Systems** are frequently built from **Laboratory Information Management Systems (LIMS)**, but need to be configured to deliver a solution that meets the specific requirements in a clearly understandable way. Biobanks can handle a wide range of sample types. In addition to the more traditional collections of human tissues biobanks, there are also collections of animal tissues or botanical samples.
+**Vehicle On Board Diagnostics Systems** are frequently built from **Laboratory Information Management Systems (LIMS)**, but need to be configured to deliver a solution that meets the specific requirements in a clearly understandable way. Biobanks can handle a wide range of sample types. In addition to the more traditional collections of human tissues biobanks, there are also collections of animal tissues or botanical samples.
 
-***Charleston Park*** is a dialog-based application performing the management of data of the patients with cardiovascular disease. The data includes patient basic information, sample information and imaging information of cardiology.
-
-Furthermore, I use relational database to combine all sorts of patient's information together, so that the scability of all kinds of data can be achieved during our clinical practice. 
+***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) installed in cars.
 
 [![Charleston Park's GUI](CharlestonPark_Interface.jpg)](README.md)
 
