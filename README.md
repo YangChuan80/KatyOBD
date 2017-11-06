@@ -33,11 +33,12 @@ python KatyOBD.py
 - The GUI of Katy OBD will run.
 
 ## Instructions
-- Connect the OBD port with ELM327 Bluetooth OBD connector. The position of the OBD connector of your car is located under the dashboard in your cockpit.
+- Connect the OBD port with **ELM327 Bluetooth OBD connector**. The position of the OBD connector of your car is located under the dashboard in your cockpit.
+[![ELM 327](ELM327.jpg)](README.md)
 - Ignite your car.
-- Connect the OBD via Bluetooth using your Raspberry Pi.
-- Run Katy OBD as previously mentioned. When Katy OBD pop up, click **Start** button to initiate the extraction process of vehicle data, including RPM, speed, coolant temperature, fuel level, intake air temperature and throttle position information. 
-- When click the **Stop** button, you'll stop the parsing process.ions to let you to query the database. 
+- Connect the OBD via Bluetooth using your **Raspberry Pi**.
+- Run ***Katy OBD*** as previously mentioned. When ***Katy OBD*** pop up, click **Start** button to initiate the extraction process of vehicle data, including RPM, speed, coolant temperature, fuel level, intake air temperature and throttle position information. 
+- When click the **Stop** button, you'll stop the parsing process. 
 
 ## License
 The MIT License (MIT)
