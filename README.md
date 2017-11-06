@@ -14,40 +14,30 @@ A dialog-based on-board diagnositcs parsing tools of vehicle.
 
 **On-board diagnostics** (**OBD**) is an automotive term referring to a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or repair technician access to the status of the various vehicle subsystems. Modern OBD implementations use a standardized digital communications port to provide real-time data in addition to a standardized series of diagnostic trouble codes, or DTCs, which allow one to rapidly identify and remedy malfunctions within the vehicle.
 
-***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) installed in cars via OBD port with OBD connector.
+***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) built in cars via OBD port with a Bluetooth OBD connector.
 
 [![Katy OBD GUI](Katy_OBD_GUI.jpg)](README.md)
 
-## Installation from Binaries
-- Download **[CharlestonPark_Installer.exe](https://github.com/YangChuan80/CharlestonPark/blob/master/CharlestonPark_Installer.exe?raw=true)** file from **[here](https://github.com/YangChuan80/CharlestonPark/blob/master/CharlestonPark_Installer.exe?raw=true)**, which is a NSIS installation file only used in Windows platform. 
-- After downloading, you can install it directly. When finished, a folder with the same name have been made. Enter the folder CharlestonPark, run the **CharlestonPark.EXE** to go!
-- This option is for ordinary users, who are not required to possess any knowledge of Python programming language or to have Python interpreter configured on their computers.
-- CharlestonPark can also be run on Mac OSX and Linux.
-
-## Installation from Source
-This option is only adopted by Python specialist. 
-
-After you complete the CharlestonPark.py and database files download, run it:
+## Run the Program
+- Install the OBD module of Python.
 ```
-python CharlestonPark.py
+$ pip install obd
 ```
-Python interpreter has to be Python 3.4 or later.
+- Download **[KatyOBD.py](https://raw.githubusercontent.com/YangChuan80/KatyOBD/master/KatyOBD.py)** file from **[here](https://raw.githubusercontent.com/YangChuan80/KatyOBD/master/KatyOBD.py)**, which is a Python source file only. 
 
-- **Setuptools & Pyinstaler**
- - If you'd like to use **PyInstaller**, you should downgrade your **setuptools** module to **19.2**.
+- After downloading, run the **KatyOBD.py** to go as below:
 
-To perform frozen binary, do this:
 ```
-pyinstaller CharlestonPark.py -w
+python KatyOBD.py
 ```
+- The GUI of Katy OBD will run.
 
 ## Instructions
-- Click **Browse** button to browse the information of all samples and patients. 
-- When the information lists, you can double click the row, then the detailed information will display in the lower part of the dialog. 
-- If you want change the detailed information, after you edit it, you can click the **Update**. After the dialog pop up, your edited changes will update to the database.
-- You also can create a new record of sample and/or patient by clicking **New Sample...** and/or **New Patient...**.
-- Click **Samples...** or **Patients...** button on the right, you can browse, change and delete the information of sample and patient at one time from the database.
-- Besides, the search services are available in main dialogue and **Samples...**/**Patients...** dialogue. ***Charleston Park*** provide patient name search, in-patient ID search and sample ID search options to let you to query the database. 
+- Connect the OBD port with ELM327 Bluetooth OBD connector. The position of the OBD connector of your car is located under the dashboard in your cockpit.
+- Ignite your car.
+- Connect the OBD via Bluetooth using your Raspberry Pi.
+- Run Katy OBD as previously mentioned. When Katy OBD pop up, click **Start** button to initiate the extraction process of vehicle data, including RPM, speed, coolant temperature, fuel level, intake air temperature and throttle position information. 
+- When click the **Stop** button, you'll stop the parsing process.ions to let you to query the database. 
 
 ## License
 The MIT License (MIT)
