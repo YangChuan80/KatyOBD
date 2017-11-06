@@ -1,5 +1,5 @@
 # Katy OBD
-A dialog-based on-board diagnositcs parsing tools.
+A dialog-based on-board diagnositcs parsing tools of vehicle.
 
 ***Chuan Yang*** (<yangc@sj-hospital.org>)
 
@@ -10,13 +10,13 @@ A dialog-based on-board diagnositcs parsing tools.
 [![Home](https://img.shields.io/badge/GitHub-home-ff69b4.svg)](https://github.com/YangChuan80)
 
 ## Introduction
-**Biobanks** are increasingly playing an important role in biotechnology, pharmaceutical and medical research. The ability to manage an ever-increasing number of biosamples (blood, tissue, DNA etc.) and to comply with the regulatory requirements, such as HTA, GCLP, MHRA, FDA 21  CFR Part 11 and other similar requirements, is a high priority for all organisations working in this area.  
+**Electronic Control Unit** **(ECU)**: In automotive electronics, ECU is any embedded system that controls one or more of the electrical system or subsystems in a transport vehicle.Types of ECU include Electronic/engine Control Module (ECM), Powertrain Control Module (PCM), Transmission Control Module (TCM), Brake Control Module (BCM or EBCM), Central Control Module (CCM), Central Timing Module (CTM), General Electronic Module (GEM), Body Control Module (BCM), Suspension Control Module (SCM), control unit, or control module. Taken together, these systems are sometimes referred to as the car's computer (Technically there is no single computer but multiple ones.) Sometimes one assembly incorporates several of the individual control modules (PCM is often both engine and transmission).
 
-**Vehicle On Board Diagnostics Systems** are frequently built from **Laboratory Information Management Systems (LIMS)**, but need to be configured to deliver a solution that meets the specific requirements in a clearly understandable way. Biobanks can handle a wide range of sample types. In addition to the more traditional collections of human tissues biobanks, there are also collections of animal tissues or botanical samples.
+**On-board diagnostics** (**OBD**) is an automotive term referring to a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or repair technician access to the status of the various vehicle subsystems. Modern OBD implementations use a standardized digital communications port to provide real-time data in addition to a standardized series of diagnostic trouble codes, or DTCs, which allow one to rapidly identify and remedy malfunctions within the vehicle.
 
-***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) installed in cars.
+***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) installed in cars via OBD port with OBD connector.
 
-[![Charleston Park's GUI](CharlestonPark_Interface.jpg)](README.md)
+[![Katy OBD GUI](Katy_OBD_GUI.jpg)](README.md)
 
 ## Installation from Binaries
 - Download **[CharlestonPark_Installer.exe](https://github.com/YangChuan80/CharlestonPark/blob/master/CharlestonPark_Installer.exe?raw=true)** file from **[here](https://github.com/YangChuan80/CharlestonPark/blob/master/CharlestonPark_Installer.exe?raw=true)**, which is a NSIS installation file only used in Windows platform. 
