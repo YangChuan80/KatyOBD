@@ -16,10 +16,12 @@ str_fuel_level = '0'
 str_intake_temp = '0'
 str_throttle_pos = '0'
 
+str_intake_pressure = '0'
+
 indicator = 0
 
 def parseAuto():
-    global str_rpm, str_speed, str_coolant_temp, str_fuel_level, str_intake_temp, str_throttle_pos, indicator
+    global str_rpm, str_speed, str_coolant_temp, str_fuel_level, str_intake_temp, str_throttle_pos, str_intake_pressure, indicator
     
     while(1):
         
@@ -35,6 +37,7 @@ def parseAuto():
         
         cmd_intake_temp = obd.commands.INTAKE_TEMP
         cmd_throttle_pos = obd.commands.THROTTLE_POS
+        cmd_intake_pressure = obd.commands.INTAKE_PRESSURE
         
         # Assignment of Values to Varible 'Response'
         response_rpm = connection.query(cmd_rpm)
@@ -44,6 +47,7 @@ def parseAuto():
         
         response_intake_temp = connection.query(cmd_intake_temp)
         response_throttle_pos = connection.query(cmd_throttle_pos)
+        response_intake_pressure = connection.query(cmd_intake_pressure)  
         
         # Change Obj to String
         str_rpm = str(response_rpm.value)
@@ -53,6 +57,7 @@ def parseAuto():
         
         str_intake_temp = str(response_intake_temp.value)   
         str_throttle_pos = str(response_throttle_pos.value)   
+        str_intake_pressure = str(response_intake_pressure.value)
         
         # Delay Parsing Time
         time.sleep(0.01) 
@@ -119,7 +124,9 @@ def start_thread(event):
     text_intake_temp.delete('1.0', tk.END)
     text_intake_temp.insert('1.0', str_intake_temp)    
     text_throttle_pos.delete('1.0', tk.END)
-    text_throttle_pos.insert('1.0', str_throttle_pos)    
+    text_throttle_pos.insert('1.0', str_throttle_pos)
+    text_intake_pressure.delete('1.0', tk.END)
+    text_intake_pressure.insert('1.0', str_intake_pressure)    
  
     thread.start()
     root.after(20, check_thread)
@@ -138,7 +145,9 @@ def check_thread():
         text_intake_temp.delete('1.0', tk.END)
         text_intake_temp.insert('1.0', str_intake_temp)    
         text_throttle_pos.delete('1.0', tk.END)
-        text_throttle_pos.insert('1.0', str_throttle_pos)    
+        text_throttle_pos.insert('1.0', str_throttle_pos) 
+        text_intake_pressure.delete('1.0', tk.END)
+        text_intake_pressure.insert('1.0', str_intake_pressure)    
         
         root.after(20, check_thread)    
 
@@ -189,12 +198,17 @@ text_intake_temp.place(x=50, y=y2)
 label_intake_temp = tk.Label(root, text='Intake Air Temperature', font=('tahoma', 25))
 label_intake_temp.place(x=50,y=y2-70)
 
+text_intake_pressure = tk.Text(root, width=10, height=1, font=('tahoma', 30), bd=2, wrap='none')
+text_intake_pressure.place(x=500, y=y2)
+label_intake_pressure = tk.Label(root, text='Intake Manifold Pressure', font=('tahoma', 25))
+label_intake_pressure.place(x=500,y=y2-70)
+
 text_throttle_pos = tk.Text(root, width=10, height=1, font=('tahoma', 30), bd=2, wrap='none')
-text_throttle_pos.place(x=550, y=y2)
+text_throttle_pos.place(x=950, y=y2)
 label_throttle_pos = tk.Label(root, text='Throttle Position', font=('tahoma', 25))
-label_throttle_pos.place(x=550,y=y2-70)
+label_throttle_pos.place(x=950,y=y2-70)
 label_throttle_pos_percentage = tk.Label(root, text='%', font=('tahoma', 30))
-label_throttle_pos_percentage.place(x=820,y=y2)
+label_throttle_pos_percentage.place(x=1220,y=y2)
 
 # Buttons
 
