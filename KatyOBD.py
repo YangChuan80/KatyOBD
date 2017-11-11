@@ -15,7 +15,6 @@ str_coolant_temp = '0'
 str_fuel_level = '0'
 str_intake_temp = '0'
 str_throttle_pos = '0'
-
 str_intake_pressure = '0'
 
 indicator = 0
@@ -198,17 +197,17 @@ text_intake_temp.place(x=50, y=y2)
 label_intake_temp = tk.Label(root, text='Intake Air Temperature', font=('tahoma', 25))
 label_intake_temp.place(x=50,y=y2-70)
 
-text_intake_pressure = tk.Text(root, width=10, height=1, font=('tahoma', 30), bd=2, wrap='none')
+text_intake_pressure = tk.Text(root, width=15, height=1, font=('tahoma', 30), bd=2, wrap='none')
 text_intake_pressure.place(x=500, y=y2)
 label_intake_pressure = tk.Label(root, text='Intake Manifold Pressure', font=('tahoma', 25))
 label_intake_pressure.place(x=500,y=y2-70)
 
 text_throttle_pos = tk.Text(root, width=10, height=1, font=('tahoma', 30), bd=2, wrap='none')
-text_throttle_pos.place(x=950, y=y2)
+text_throttle_pos.place(x=1020, y=y2)
 label_throttle_pos = tk.Label(root, text='Throttle Position', font=('tahoma', 25))
-label_throttle_pos.place(x=950,y=y2-70)
+label_throttle_pos.place(x=1020,y=y2-70)
 label_throttle_pos_percentage = tk.Label(root, text='%', font=('tahoma', 30))
-label_throttle_pos_percentage.place(x=1220,y=y2)
+label_throttle_pos_percentage.place(x=1300,y=y2)
 
 # Buttons
 
