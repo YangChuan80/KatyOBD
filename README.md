@@ -16,7 +16,7 @@ A dialog-based on-board diagnositcs parsing tools of vehicle.
 
 ***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) built in cars via OBD port with a Bluetooth OBD connector.
 
-[![Katy OBD GUI](Katy_OBD_GUI.jpg)](README.md)
+[![Katy OBD GUI](images/Katy_OBD_GUI.jpg)](README.md)
 
 ## Run the Program
 - Install the OBD module of Python.
@@ -36,7 +36,7 @@ python KatyOBD.py
 - Connect the OBD port with **ELM327 Bluetooth OBD connector**. The position of the OBD connector of your car is located under the dashboard in your cockpit.
 
 
-[![ELM 327](ELM327.jpg)](README.md)
+[![ELM 327](images/ELM327.jpg)](README.md)
 
 - Ignite your car.
 - Connect the OBD via Bluetooth using your **Raspberry Pi**.
