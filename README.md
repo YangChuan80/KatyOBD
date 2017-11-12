@@ -1,5 +1,5 @@
 # Katy OBD
-A dialog-based on-board diagnositcs parsing tools of vehicle.
+A dialog-based ECU parsing tools of vehicle via OBD.
 
 ***Chuan Yang*** (<yangc@sj-hospital.org>)
 
