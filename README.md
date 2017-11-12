@@ -23,6 +23,8 @@ A dialog-based on-board diagnositcs parsing tools of vehicle.
 - **Intake Manifold Pressure**
 - **Throttle Position**, 
 
+The GUI should be like this: 
+
 [![Katy OBD GUI](images/Katy_OBD_GUI.jpg)](README.md)
 
 ## Run the Program
@@ -35,7 +37,7 @@ $ pip install obd
 - After downloading, run the **KatyOBD.py** to go as below:
 
 ```
-python KatyOBD.py
+$ python KatyOBD.py
 ```
 - The GUI of Katy OBD will run.
 
