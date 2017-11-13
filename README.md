@@ -49,7 +49,13 @@ $ python KatyOBD.py
 
 - Start the engine of your car.
 - Connect the OBD via Bluetooth using your **Raspberry Pi**.
+
+[![Connect OBD](images/OBD_00.jpg)](README.md)
+
 - Run ***Katy OBD*** as previously mentioned. When ***Katy OBD*** pop up, click **Start** button to initiate the extraction process of vehicle data, including RPM, speed, coolant temperature, fuel level, intake air temperature and throttle position information. 
+
+[![Dash](images/Dash_02.jpg)](README.md)
+
 - When click the **Stop** button, you'll stop the parsing process. 
 
 ## License
