@@ -14,7 +14,7 @@ A dialog-based ECU parsing tools of vehicle via OBD.
 
 **On-board diagnostics** (**OBD**) is an automotive term referring to a vehicle's self-diagnostic and reporting capability. OBD systems give the vehicle owner or repair technician access to the status of the various vehicle subsystems. Modern OBD implementations use a standardized digital communications port to provide real-time data in addition to a standardized series of diagnostic trouble codes, or DTCs, which allow one to rapidly identify and remedy malfunctions within the vehicle.
 
-***Katy OBD*** is a dialog-based application performing the parser of data from ECU (Electronic Control Unit) built in cars via OBD port with a Bluetooth OBD connector. It can provide the information of ECU parameters including: 
+***Katy OBD*** is a dialog-based application performing the data parser from ECU (Electronic Control Unit) built in consumer production automobiles via OBD port with a Bluetooth OBD connector. It can provide the information of ECU parameters including: 
 - **RPM** 
 - **Speed**
 - **Coolant Temperature**
