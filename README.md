@@ -62,8 +62,6 @@ $ python KatyOBD.py
 
 - When click the **Stop** button, you'll stop the parsing process. 
 
-<iframe width="560" height="315" src="http://v.youku.com/v_show/id_XMzE2MjIyNjY4NA==.html?spm=a2h3j.8428770.3416059.1" frameborder="0" allowfullscreen></iframe>
-
 ## License
 The MIT License (MIT)
 
