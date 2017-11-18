@@ -54,7 +54,11 @@ $ python KatyOBD.py
 
 - Run ***Katy OBD*** as previously mentioned. When ***Katy OBD*** pop up, click **Start** button to initiate the extraction process of vehicle data, including RPM, speed, coolant temperature, fuel level, intake air temperature and throttle position information. 
 
+*Original Interface of Katy OBD*
 [![Dash](images/Dash_02.jpg)](README.md)
+
+*Enhanced Interface of Katy OBD with Intake Manifold Pressure*
+[![Dash](images/Dash_01.jpg)](README.md)
 
 - When click the **Stop** button, you'll stop the parsing process. 
 
