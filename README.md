@@ -1,5 +1,5 @@
 # Katy OBD
-A dialog-based ECU parsing tools of vehicle via OBD.
+A dialog-based ECU parsing tools of vehicle via OBD coded with Python.
 
 ***Chuan Yang*** (<yangc@sj-hospital.org>)
 
